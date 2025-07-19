@@ -23,7 +23,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 function App() {
-  ReactGa.initialize("G-JDFS7KRV40");
+  ReactGa.initialize("G-M480HLMVYW");
   useEffect(() => {
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
